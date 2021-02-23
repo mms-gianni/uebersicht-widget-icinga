@@ -1,0 +1,23 @@
+name: Build
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+    - 'README.md'
+    - 'screenshot.png'
+    - 'widget.json'
+    - 'icinga.py'
+    - 'icinga.coffee'
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Zip files
+        run: zip icinga.widget.zip widget.json screenshot.png README.md LICENSE icinga.coffee icinga.p
