@@ -6,4 +6,3 @@ Widget for Übersicht http://tracesof.net/uebersicht/ to monitor your icinga hos
 ## Installation
 - Download the 'uebersicht-icinga.zip' and move it to your widgets folder (default: ~/Library/Application Support/Übersicht/widgets).
 - Open icinga.coffee and change the config values
-
