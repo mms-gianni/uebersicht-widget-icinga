@@ -21,3 +21,9 @@ jobs:
 
       - name: Zip files
         run: zip icinga.widget.zip widget.json screenshot.png README.md LICENSE icinga.coffee icinga.p
+
+      - name: Add and push zip file
+        run: |
+          git add icinga.widget.zip
+          git commit -m "added rebuilded zip file"
+          git push
