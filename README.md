@@ -1,6 +1,5 @@
 # uebersicht widet icinga
-Monitor your icinga host on your desktop
-
+Widget for Übersicht http://tracesof.net/uebersicht/ to monitor your icinga host on your desktop
 ## Screenshot
 ![Screenshot](screenshot.png?raw=true "Screenshot")
 
