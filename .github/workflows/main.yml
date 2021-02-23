@@ -24,6 +24,8 @@ jobs:
 
       - name: Add and push zip file
         run: |
+          git config --global user.email "gicara+uebersicht@gmail.com"
+          git config --global user.name "G. Carafa"
           git add icinga.widget.zip
           git commit -m "added rebuilded zip file"
           git push
